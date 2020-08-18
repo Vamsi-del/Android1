@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2"
+    android:orientation="vertical">
+
+    <ToggleButton
+        android:id="@+id/tg1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Toggle Button"
+        android:textOff="off"
+        android:textOn="on"
+        android:layout_marginTop="30sp"
+        android:padding="20sp"/>
+    <ToggleButton
+        android:id="@+id/tg2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Toggle Button"
+        android:textOff="off"
+        android:textOn="on"
+        android:layout_marginTop="30sp"
+        android:padding="20sp"/>
+
+    <CheckBox
+        android:id="@+id/cb1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Core JAVA"
+        />
+    <CheckBox
+        android:id="@+id/cb2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Adv JAVA"
+        />
+    <CheckBox
+        android:id="@+id/cb3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Java Testing"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="35sp"
+        android:text="Gender"/>
+
+    <RadioGroup
+        android:id="@+id/rg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:id="@+id/rb1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Male"
+            android:textSize="15sp"/>
+        <RadioButton
+            android:id="@+id/rb2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Female"
+            android:checked="true"
+            android:textSize="15sp"/>
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10sp"
+        android:padding="20sp"
+        android:text="Submit"
+        android:onClick="submit"/>
+</LinearLayout>

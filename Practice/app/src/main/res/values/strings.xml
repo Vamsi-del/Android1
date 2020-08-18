@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Practice</string>
+    <string name="msg">Welcome to AlertMessage</string>
+    <string name="title">Alert Title</string>
+</resources>
